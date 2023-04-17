@@ -3,27 +3,27 @@
 <img src="./img/images/mobile.png" alt="img"/>
 <p> this only contain the backend not the UI if you want full version feel free to contact</p>
 
-<a href="https://img.shields.io/github/languages/top/Ahmed-Hamdy101/Python-Semester-Plus-10"> <img src="https://img.shields.io/github/languages/top/Ahmed-Hamdy101/Python-Semester-Plus-10"/></a>
-<a href="https://img.shields.io/github/stars/Ahmed-Hamdy101/Python-Semester-Plus-10?style=social"> <img src="https://img.shields.io/github/stars/Ahmed-Hamdy101/Python-Semester-Plus-10?style=social"/></a>
-<a href="https://img.shields.io/github/repo-size/Ahmed-Hamdy101/Python-Semester-Plus-10?style=plastic"> <img src="https://img.shields.io/github/repo-size/Ahmed-Hamdy101/Python-Semester-Plus-10?style=plastic"/></a> <a href="https://twitter.com/Torn40535516"><img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial%26url%3D%252FTorn40535516" alt="Tweet" height="20"/></a>
+<a href="https://img.shields.io/github/languages/top/Ahmed-Hamdy101/php-ecommerce-shop"> <img src="https://img.shields.io/github/languages/top/Ahmed-Hamdy101/php-ecommerce-shop"/></a>
+<a href="https://img.shields.io/github/stars/Ahmed-Hamdy101/php-ecommerce-shop?style=social"> <img src="https://img.shields.io/github/stars/Ahmed-Hamdy101/php-ecommerce-shop?style=social"/></a>
+<a href="https://img.shields.io/github/repo-size/Ahmed-Hamdy101/php-ecommerce-shop?style=plastic"> <img src="https://img.shields.io/github/repo-size/Ahmed-Hamdy101/php-ecommerce-shop?style=plastic"/></a> <a href="https://twitter.com/Torn40535516"><img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial%26url%3D%252FTorn40535516" alt="Tweet" height="20"/></a>
 </div>
 
 
 # Table of Contents :
-  - [Project Description](./pd)
-  - [Requirement and installation](./#ri)
-  - [Project Structure](./#ps)
-  - [Why Prepare and SQL injection](./#sqli)
-  - [Display T-shirt](./#ts)  
-  - [API'S](./#api)
+  - [Project Description](#project-description)
+  - [Requirement and installation](#requirement-and-installation)
+  - [Project Structure](#project-structure)
+  - [Why Prepare and SQL injection](#why-prepare-and-sql-injection)
+  - [Display T-shirt](./#display-t-shirt)  
+  - [API'S](#apis)
  </ul>
 
 
-<h2 align="left">Project Description</h2>
+## Project Description 
    This PDO Project aim to how to implement the functionality of get product item,single item ,fetch result, get sizes information of products
 
 
-<h2 align="left"> Requirement and installation</h2>
+## Requirement and installation
  - first you should have Apache server ,Xampp,mamp
 
  -  create configuration file and named it`config.php`
@@ -53,7 +53,7 @@
 - if you already have `phpmyadmin` go ahead and import it from [Shop SQL File](./database/shop.sql)
 
 
-<a id="ps"><h2>Project Structure </h2></a>
+## Project Structure 
 
 ```
 │   index.php
@@ -135,7 +135,7 @@
         └───script
                 script.js
    ```
-<a id="ts"><h2> Display T-shirt  </h2></a>
+##  Display T shirt
 
 ```php
 
@@ -152,7 +152,7 @@ $result->get_conn->fetchAll(PDO::FETCH_ASSOC);
 
  ```
 
- <a id="sqli"><h2>Why Prepare and SQL injection </h2></a>
+## Why Prepare and SQL injection 
  prepare method is import because hacker's can play around sql commands since we put query method and that accessible were sql injection is imagine if you have table and put beside the url
 
  > localhost:80/www/Shop/_/app/php/tshirts/tshirts.php?id=1 DROP TABLE ? FROM ? WHERE 1 =1
@@ -162,7 +162,7 @@ $result->get_conn->fetchAll(PDO::FETCH_ASSOC);
   ```
 
 
-<a id="api"><h2> API's</h2></a>
+## APIs
 
 | API     | Response             | Response     | Description |
 | :------------- | :------------- |:------------|:------------|
